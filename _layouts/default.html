@@ -36,7 +36,7 @@
       <section id="main_content" class="inner">
 	<div class="toc_table">
 	<div class="toc_table_title">
-	  This page's table of contents [<a href={{ site.github.url }}>go back to documentation home</a>]
+	  This page's table of contents [<a href={{ site.github.url }}>Documentation home</a>]
 	</div>
 	{% include toc.html html=content %}
 	</div>
@@ -50,7 +50,7 @@
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a> &emdash; Page generation time: {{ site.time | date_to_long_string }} </p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a> - Page last generation time: {{ site.time | date_to_rfc822 }} </p>
       </footer>
     </div>
 
