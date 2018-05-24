@@ -39,6 +39,20 @@ table {
   border-spacing: 0;
 }
 
+/**************
+put back sup/sub
+***************/
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
